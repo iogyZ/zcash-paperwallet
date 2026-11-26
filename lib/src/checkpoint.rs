@@ -13,10 +13,10 @@ use zcash_primitives::consensus::{BlockHeight, Network, NetworkUpgrade, Paramete
 /// Mainnet chain tip on `CHECKPOINT_DATE`.
 /// Sources, which agreed: api.blockchair.com/zcash/stats and
 /// mainnet.zcashexplorer.app/api/v1/blockchain-info.
-pub const CHECKPOINT_HEIGHT_MAIN: u32 = 3_580_609;
+pub const CHECKPOINT_HEIGHT_MAIN: u32 = 3_614_782;
 
 /// Day (UTC) the mainnet checkpoint was read.
-pub const CHECKPOINT_DATE: &str = "2026-11-16";
+pub const CHECKPOINT_DATE: &str = "2026-11-26";
 
 /// Blocks subtracted from the checkpoint. About two days at the 25 second
 /// block spacing measured on mainnet in November 2026.
